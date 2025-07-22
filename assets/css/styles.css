@@ -135,7 +135,7 @@ img {
         position: fixed;
         top: var(--header-height);
         right: -100%;
-        width: 80%;
+        width: 50%;
         height: 100%;
         padding: 2rem;
         background-color: var(--second-color);
@@ -320,6 +320,7 @@ img {
 
 .skills__text {
     margin-bottom: var(--mb-4);
+    
 }
 
 .skills__data {
@@ -374,6 +375,50 @@ img {
 .skills__img {
     border-radius: 0.5rem;
 }
+
+
+.skills__icons {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+    gap: 20px;
+    padding: 20px 0;
+}
+
+/* .skill {
+    display: flex; */
+    /* flex-direction: column;
+    align-items: center;
+    font-size: 14px;
+    text-align: center;
+}
+
+.skill i {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+
+.skills__icons {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+    gap: 20px;
+    padding: 20px 0;
+} */
+
+.skill {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 14px;
+    text-align: center;
+}
+
+.skill i {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+
 
 /* ===== WORK =====*/
 .work__container {
@@ -478,7 +523,8 @@ img {
     outline: none;
     font-size: var(--normal-font-size);
     cursor: pointer;
-    margin: 0 auto; /* O'rtaga olib keladi */
+    margin: 0 auto;
+    /* O'rtaga olib keladi */
 }
 
 
